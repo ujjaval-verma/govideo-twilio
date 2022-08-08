@@ -7,13 +7,17 @@ import { ServiceWorkerModule } from '@angular/service-worker';
 import { environment } from '../environments/environment';
 import { HttpClientModule } from '@angular/common/http';
 import { CoordinatorComponent } from './coordinator/coordinator.component';
-import { InspectorComponent } from './inspector/inspector.component'
+import { InspectorComponent } from './inspector/inspector.component';
+import { InspectorVideoContainerComponent } from './inspector-video-container/inspector-video-container.component';
+import { CoordinatorVideoContainerComponent } from './coordinator-video-container/coordinator-video-container.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     CoordinatorComponent,
-    InspectorComponent
+    InspectorComponent,
+    InspectorVideoContainerComponent,
+    CoordinatorVideoContainerComponent,
   ],
   imports: [
     BrowserModule,

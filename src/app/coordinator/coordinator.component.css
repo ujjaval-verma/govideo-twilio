@@ -1,0 +1,14 @@
+.coordinator-session {
+  display: flex;
+}
+.primary-pane {
+  min-width: 250px;
+  margin: 0 5px;
+  flex: 1;
+}
+.secondary-pane {
+  display: flex;
+  flex-direction: column;
+  flex: 0 0 25%;
+  max-width: 25%;
+}

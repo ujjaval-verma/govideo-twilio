@@ -1,0 +1,10 @@
+.inspector-video-splash-screen {
+    display: flex;
+    width: 100%;
+    min-height: 100px;
+    background-color: #777777;
+    color: #f8f8f8;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
